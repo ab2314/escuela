@@ -37,6 +37,9 @@
             <a class="dropdown-item" href="{{route('paginaInformatica')}}">Informatica</a>
             <a class="dropdown-item" href="{{route('paginaConservacion')}}">conservacion e industrializacion de alimentos</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{route('calendario')}}">Calendario</a>
+          </li>
       </ul>
     </div>
   </nav>

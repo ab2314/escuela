@@ -38,6 +38,10 @@ Route::get('/usuarios',[usuariosController::class,'MostrarPaginaUsuarios'])->nam
 
 Route::get('/anuncios/eliminar/{id}',[AnunciosController::class,'EliminarAnuncio'])->name('EliminarAnuncio');
 
+//
 Route::get('/usuario/eliminar/{id}',[UsuariosController::class,'EliminarUsuario'])->name('EliminarUsuario');
 Route::post('/usuario/editarr/{id}',[UsuariosController::class,'EditarUsuario'])->name('EditarUsuario');
 Route::post('/usuarios/agregar',[UsuariosController::class,'AgregarUsuario'])->name('AgregarUsuario');
+
+//Vista 
+Route::view('/calendario','calendario')->name('calendario');
